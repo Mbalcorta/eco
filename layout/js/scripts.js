@@ -82,7 +82,7 @@
 				var str = $(this).serialize();
 				$.ajax({
 					type: "POST",
-					url: "_layout/php/send.php",
+					url: "layout/php/send.php",
 					data: str,
 					success: function (msg) {
 						$("#formstatus").ajaxComplete(function (event, request, settings) {
