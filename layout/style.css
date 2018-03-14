@@ -465,5 +465,118 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	#contact-form fieldset{ margin:0; padding:15px 0 15px 0; }
 	#contact-form p{ padding:5px 0 5px 25px; margin:1px; }
 	p#formstatus{ border:none; border-bottom:1px solid #cfcfcf; padding-right:25px; margin-bottom:10px; }
+
+	/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+{   
+
+	html, body {
+		height: 100%;
+	}
+
+	#wrap {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: 0 0 0 15px;
+	}
+
+	#header {
+		order: 1;
+		height: 35%;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#aboutLinks {
+		height: 800px;
+	}
+	#content {
+		order: 2;
+		height: 75%;
+	}
+
+	#footer {
+		order: 3
+	}
+	 .last {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		height: 80%;
+	}
+
+	.fixed #services-overview {
 		
+		display: flex;
+		flex-direction: column;
+	}
+
+	#services-overview li {
+		height: 33%;
+		width: inherit;
+	}
+	
+	.col-220 {
+		width: 100%;
+		text-align: center;
+		margin-right: 0;
+		height: 20%;
+	}
+
+	.col-620 {
+		width: 309px;
+		float: left;
+	}
+
+	.col-220 p {
+		margin: 0 25px;
+		font-size: 9px;
 		
+		/* white-space: pre-wrap; */
+	}
+
+	.fixed {
+		text-align: center;
+	}
+
+	.col-460 {
+		width: 100%;
+	}
+
+}
+/* 
+	.col-460 h3 canvas .cufon .cufon-canvas cufontext {
+		color: green!important;
+	}
+
+	#footer .row .fixed {
+		background-color: green;
+	} */
+
+
+/* Portrait
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+} */
+
+/* Landscape */
+/* @media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+} */
