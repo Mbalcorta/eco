@@ -470,7 +470,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Portrait and Landscape */
 @media only screen 
-and (min-device-width: 375px) 
+and (min-device-width: 320px) 
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2) 
 {   
